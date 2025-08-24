@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.question::before {
+    content: "Q. ";
+}
+
+.question::after {
+    content: "?";
+}
+
+
+.question {
+    color: blue;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.answer {
+    color: green;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.first_section h2 {
+    background-clip: text;
+    background-image: linear-gradient(to right, rgb(125, 25, 25), rgb(215, 8, 18));
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgb(207, 29, 29);
+
+}
+
+.first_section .question {
+    padding: 15px;
+    box-shadow: 1px 2px 8px 1px #f0f0f0;
+}
+
+
+/* first:x-axis(to the right)
+second:y-axis(to bottom)
+third:blur
+fourth:spread*/
